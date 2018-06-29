@@ -1,0 +1,15 @@
+{
+  "name": "jsdoc-react",
+  "version": "0.0.1",
+  "description": "A jsdoc plugin to process react specific jsdoc annotations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jsdoc",
+    "react"
+  ],
+  "author": "Lane Meisenheimer",
+  "license": "MIT"
+}
