@@ -1,0 +1,22 @@
+/**
+ * @component
+ * A component to test even more stuff out on.
+ */
+class TestComponent extends Component {
+    render() {
+        return null;
+    }
+}
+
+TestComponent.defaultProps = {
+    optionalBool: false
+};
+
+TestComponent.propTypes = {
+    /**
+     * @reactProp {boolean} optionalBool - an optional boolean.
+     **/
+    optionalBool: React.PropTypes.bool
+};
+
+export default TestComponent;
