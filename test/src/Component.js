@@ -1,6 +1,6 @@
 /**
- * @component
  * A component to test even more stuff out on.
+ * @component
  */
 class TestComponent extends Component {
     render() {

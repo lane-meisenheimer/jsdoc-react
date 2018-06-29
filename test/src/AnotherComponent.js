@@ -1,22 +1,22 @@
 /**
- * @component
  * A component to test even more stuff out on.
+ * @component
  */
-class TestComponent extends Component {
+class AnotherTestComponent extends Component {
+
+    static propTypes = {
+        /**
+         * @reactProp {boolean} optionalBool - an optional boolean.
+         **/
+        optionalBool: React.PropTypes.bool
+    }
     render() {
         return null;
     }
 }
 
-TestComponent.defaultProps = {
+AnotherTestComponent.defaultProps = {
     optionalBool: false
-};
-
-TestComponent.propTypes = {
-    /**
-     * @reactProp {boolean} optionalBool - an optional boolean.
-     **/
-    optionalBool: React.PropTypes.bool
 };
 
 export default TestComponent;
